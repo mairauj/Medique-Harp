@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Appointment</title>
+    <script src="appo.js"></script>
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="appo.css">
+    <link rel="stylesheet" href="restab.css">
+    <link rel="stylesheet" href="res600.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@500;600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet"> 
+</head>
+
+<body class="b">
+
+  <header>
+    <div class="rh">
+      <div class="c1">
+         <a href="#"><i class="fa-regular fa-envelope"></i>contact@example.com</a>
+         <i class="fa-solid fa-mobile-screen-button"></i> +1 5589 55488 55
+      </div>
+      <div class="c2">
+       <a href="#">  <i class="fa-brands fa-facebook-f"></i></a>
+       <a href="#"><i class="fa-brands fa-twitter"></i></a> 
+        <a href="#"><i class="fa-brands fa-instagram"></i></a> 
+        <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+      </div>
+    </div>
+  
+</header>
+<div class="header11">
+  <img src="medilo.png" style="float: left; max-width: 100%; height: auto;">
+
+  <input type="checkbox" id="menu-bar">
+  <label for="menu-bar"><i class="fa-solid fa-bars"></i></label>
+
+  <nav class="navbar">
+   <ul class="">
+     <li><a href="home.htm" >Home</a></li>
+     <li><a  href="doc.htm">Doctors</a></li>
+   
+     <li class="dropdown">
+     <a href="#">Services</a>
+     <div class="dropdown-content11">
+       <a href="dep.htm">Departments</a>
+       <a href="medishop.htm">Medical Shops</a>
+       <a href="lab.htm">Laboratory</a>
+     </div>
+     </li>
+   
+     <li><a href="gallery.htm">Gallery</a></li>
+     <li><a href="abt.htm">About us </a></li>
+     <li><a href="contact.htm">Contact us</a></li>
+     
+     <li class="dropdown">
+     <a href="#">Login</a>
+     <div class="dropdown-content11">
+       <a href="log.htm">Admin</a>
+       <a href="log.htm">Patient</a>
+     </div>
+     </li>
+     <li><a class="apac"  href="#">Appointment</a></li>
+    
+   </ul>
+ </nav>
+
+</div>
+        <div class="header1">
+
+                  <img  src="header.jpg" > 
+                  <h1 class="h1">Appointment</h1>
+                  <a class="h" href="home.htm" >Home /</a>
+                  <h2>Appointment</h2>
+                
+        </div>
+
+
+   <!-- APPOINMENT--------->
+ <div class="app">
+
+  <div class="cont">
+    <P class="p1"> Appointment</P>
+    <h1>Make An Appoinment To Visit Our Doctor</h1>
+   <p class="p2">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
+   <div class="box1">
+         <div class="call"><i class="fa-solid fa-phone" style="color: aqua;" ></i></div>
+         <div class="no">
+      <p class="p3">Call Us Now</p>
+      <h3 class="p22"> +012 345 6789</h3>
+      </div>
+   </div>
+  </div>
+   
+        <div class="containera">
+          <form   action="data.htm">
+      <h2 >Make an Appointment</h2><br><br>
+
+<div class="a">
+<div class="a1">
+        <label  for="fname">Your Name:</label>
+        <label  for="mail">Your Email:</label>
+        <label  for="num">Your Number:</label>
+        <label  for="doc">Select Doctor:</label>
+        <label  for="date">Choose Date:</label>
+        <label  for="time">Choose Timming:</label>
+</div>
+
+<div class="a2">
+  
+        <i class="fa-solid fa-user"></i>
+        <i class="fa-solid fa-envelope"></i>
+        <i class="fa-solid fa-phone"></i>
+        <i class="fa-solid fa-user-doctor"></i>
+        <i class="fa-solid fa-calendar-days"></i>
+        <i class="fa-solid fa-clock"></i>
+        
+</div>
+
+<div class="a3">
+        <input type="text" id="fname"  placeholder="Your Name"><br>
+        <input type="email" id="mail" placeholder="Your Email"><br>
+        <input type="value" id="num"  placeholder="Your Number" ><br>
+        <select id="doc">
+          <option value="doctor1"> Doctor1</option>
+          <option value="doctor2">Doctor2</option>
+          <option value="doctor3">Doctor3</option>
+          <option value="doctor4">Doctor4</option>
+        </select><br>
+        <input id="date" type="date" name="date"><br>
+        <input type="time" id="time" name="time"><br>
+       
+</div>
+
+</div>
+<textarea id="ms" placeholder="Message"></textarea><br>
+<input type="checkbox" id="chek" >I accepted all terms and conditions.<br><br>
+
+        <input type="reset" value="Reset">
+        <input type="submit" value="Submit" onclick="detail()">
+        <script>
+          function detail() 
+   {
+      var name = document.getElementById("fname").value;
+      localStorage.setItem("nm",name);
+      var mail = document.getElementById("mail").value;
+      localStorage.setItem("ml",mail);
+      var num = document.getElementById("num").value;
+      localStorage.setItem("nu",num);
+      var doc = document.getElementById("doc").value;
+      localStorage.setItem("dc",doc);
+      var date = document.getElementById("date").value;
+      localStorage.setItem("dt",date);
+      var time = document.getElementById("time").value;
+      localStorage.setItem("tm",time);
+  
+      //  document.write("Name: "+name+ "<br> Email: " +mail+ "<br> Doctor: " +doc+ "<br>Date: " +date+ "<br>Time: " +time);   
+    }
+         </script>
+</form>
+
+</div> 
+
+
+</div>
+
+<footer>
+  <div class="footer">
+    <div class="footer-row">
+      <div class="footer-col">
+        <h3>Info</h3>
+        <ul class="links">
+          <li><a href="dep.htm">Departments</a></li>
+          <li><a href="gallery.htm">Gallery</a></li>
+          <li><a href="contact.htm">Contact us</a></li>
+          <li><a href="abt.htm">About us</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h3>Get Help</h3>
+        <ul class="links">
+          <li><a href="#">FAQ</a></li>
+          <li><a href="doc.htm">Doctors</a></li>
+          <li><a href="lab.htm">Laboratories</a></li>
+          <li><a href="medishop.htm">Medicalshops</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h3>Quick Links</h3>
+        <ul class="links">
+          <li><a href="#">Terms and Conditions</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Disclaimer</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h3>For updates</h3>
+        <p>
+          Subscribe to our channel for a weekly dose
+          of news, updates, helpful tips..
+        </p>
+        <h4 style="color: blue;"> Stay Updated With Us;</h4>
+
+        <div class="icons">
+          <i class="fa-brands fa-facebook-f"></i>
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-youtube"></i>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+</body>
+</html>

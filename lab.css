@@ -1,0 +1,109 @@
+.lh{
+    text-align: center;
+    margin-top: 30px;
+    /* color: rgb(32, 142, 239); */
+}
+.gl{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+.g3{
+    justify-content: center;
+    margin-top: 30px;
+    display: flex;
+}
+div.galry {
+    margin: 30px;
+    border: 1px solid #d5dbdd;
+    border-radius: 10px;
+    /* float: left; */
+    width: 400px;
+    overflow: hidden;
+    transition:  .4s;
+}
+  
+div.galry:hover {
+    transition-timing-function: ease-out ;
+    /* border: 1px solid #777; */
+    transform: scale(1.1);
+    /* transform: matrix(1, -0.3, 0, 1, 0, 0); */
+    box-shadow: 2px 4px 6px 3px rgba(87, 142, 230, 0.597);
+}
+  
+div.galry img {
+    width: 100%;
+    height: auto;
+}
+  
+div.di {
+    padding: 15px;
+    text-align: center;
+}
+
+.labap{
+    display: flex;
+}
+.lap{
+    width: 700px;
+    /* text-align: center; */
+}
+.lap h1{
+    color: rgb(49, 142, 249);
+    text-align: center;
+    font-size: 50px;
+    margin:50px auto auto 80px;
+}
+.lp{
+    text-align: center;
+    margin:40PX auto auto 79px;
+}
+.fomm
+{
+    border-radius: 10px;
+    margin: 20px 20px auto auto;  
+    background-color: #e0f5ffe0;
+    padding: 20px;
+}
+.na{
+display: flex;
+/* padding: 10px; */
+}
+.da{
+    display: flex;
+
+}
+
+.msg textarea{
+    border: 1px solid whitesmoke;
+    border-radius: 10px;
+    margin: 10px;
+    width: 620px ;
+    padding: 10px;
+    /* height: 40px; */
+}
+.da input{
+    border: 1px solid whitesmoke;
+    border-radius: 10px;
+    margin: 10px;
+    width: 300px;
+    height: 40px;
+    padding: 10px;
+}
+
+select{
+    border: 1px solid whitesmoke;
+    border-radius: 10px;
+    margin: 10px;
+    width: 300px;
+    height: 40px;
+}
+.fomm button{
+    border: 1px solid whitesmoke;
+    background-color: rgb(15, 142, 245);
+    border-radius: 10px;
+    color: white;
+    width: 620px;
+    margin: 10px;
+    height: 50px;
+}

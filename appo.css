@@ -1,0 +1,207 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: jost;
+}
+.apac{
+    background-color:  rgba(104, 230, 255, 0.6); 
+    color: rgb(11, 171, 230) !important;
+    border-bottom:4px solid  rgb(8, 126, 244)  ; 
+    border-radius: 10px;
+}
+.header1{
+    width: 100%;
+    text-align: center;
+    top: 300px ;
+    max-width:1200px;
+    /* position: relative; */
+ }
+ .h1{
+    display: block;
+    /* background-color:aquamarine; */
+    color: white;
+    top: 250px;
+    left: 170px;
+    font-size:  60px;
+    
+    position: absolute;
+ }
+ .header1 h2{
+ position: absolute;
+ top: 323px;
+ left: 265px;
+ color: rgb(8, 154, 244);
+ }
+ .header1 img{
+    /* max-width:100%;
+    height:auto; */
+    opacity: 70%;
+    width: 1515px; 
+    height: 350px;
+}
+
+ a{
+    text-decoration: none;
+} 
+.act{
+    
+     color: rgb(11, 171, 230);
+     border-bottom:4px solid  rgb(8, 126, 244); 
+     border-radius: 10px;
+     background-color:  rgba(104, 230, 255, 0.6); 
+}
+ .h  {
+    position: absolute;
+    display: flex;
+    font-size: 20px;
+    color: rgb(252, 250, 250);
+    padding: 10px;
+    /* top: 265px; */
+    left: 175px;
+    text-decoration: none;
+    color: white;
+    /* border-right: 3px solid rgb(253, 250, 250); */
+ }
+ /* HEADER END------------------------------------------------------------ */
+ 
+.app{
+    width: 100%;
+    display: flex;
+}
+
+.cont{
+width:40%;
+margin: 200px auto auto 100px ;
+}
+
+.cont h1{
+    font-size: 50px;
+    margin-bottom: 15px;
+    color:  rgb(8, 75, 244);
+}
+.cont p{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.p1{
+    display: inline-block;
+    padding: 8px;
+    border: 2px solid rgb(67, 226, 250);
+    border-radius: 10px;
+    margin-bottom: 15px
+}
+
+.box1{
+    display: flex;
+    margin-top: 30px;
+    padding: 10px;
+    width: 400px;
+    height: 150px;
+    border-radius: 10px;
+    background-color: rgba(230, 240, 250, 0.705);
+}
+.call{
+display: block;
+margin: 40px 40px 50px 50px;
+width: 100px;
+height: 50px;
+justify-content: center;
+}
+.no{
+
+margin: 25px 30px 50px 30px;
+display: block;
+width: 300px;
+
+}
+.containera{
+background-color:rgba(238, 242, 243, 0.777);
+width: 500px;
+border-radius: 8px;
+/* border: 3px solid rgb(10, 10, 10); */
+padding: 40px;
+margin: 100px  100px auto auto;
+align-self: center;
+float: right;
+border: 1px solid rgb(255, 253, 253);
+box-shadow: 4px 6px 3px 5px rgb(8, 126, 244);
+}
+label{
+    width: 150px;
+    height: 35px ;
+    margin-bottom: 20px;
+    display: block;
+}
+
+h2{
+    text-align: center;
+}
+
+.a3 select{
+    width: 200px;
+    height: 35px;
+    margin-bottom: 20px;
+}
+.a{
+  
+width: 400px;
+display: flex;
+}
+.a1{
+width: 150px;
+display:block;
+margin-top: 5px;
+}
+.a2{
+    width: 50px;
+    display: block;
+    margin-top: 8px;
+}
+/* input[type=time]
+{
+    margin-top: 0px ;
+    margin-bottom: 0px !important;
+ } */
+.a3 input{
+    width: 200px;
+    height: 35px;
+    margin-bottom: 20px ;
+}
+ .a2 i{
+    width: 20px;
+    height: 40px ;
+    margin-bottom: 15px;
+    display: block;
+    text-align:center;
+    color:  rgb(8, 126, 244);
+ }
+ 
+input[type=submit]{
+    width: 100px;
+    height: 40px;
+    background-color: rgb(8, 126, 244);
+    color: rgb(252, 250, 250);
+    cursor: pointer;
+    font-size: large;
+    float: right;
+    /* margin-right: 40px; */
+   
+}
+input[type=reset]{
+    width: 100px;
+    height: 40px;
+    background-color: rgb(8, 126, 244);
+    color: rgb(252, 250, 250);
+    cursor: pointer; 
+}
+
+textarea{
+    width: 400px;
+    height: 100px;
+    padding: 10px;
+}
+.call i{
+   font-size: 40px;
+}
+

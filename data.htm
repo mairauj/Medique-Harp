@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Datails</title>
+
+</head>
+<body>
+    NAME : &nbsp;<span id="nn"> </span>
+    MAIL : &nbsp; <span id="mm"> </span>
+    NO.  :&nbsp; <span id="um"></span>
+    DOC :  &nbsp;<span id="dd"> </span>
+    TIME :  &nbsp;<span id="tt"> </span>
+    DATE :  &nbsp;<span id="td"> </span>
+
+<div class="dta">
+    <div class="in">
+
+    </div>
+</div>
+    <script>
+
+        document.getElementById('nn').innerHTML=localStorage.getItem("nm") +"<br>";
+        document.getElementById('um').innerHTML=localStorage.getItem("nu") +"<br>";
+        document.getElementById('mm').innerHTML=localStorage.getItem("ml") +"<br>";
+        document.getElementById('dd').innerHTML=localStorage.getItem("dc") +"<br>";
+        document.getElementById('td').innerHTML=localStorage.getItem("dt")+"<br>";
+        document.getElementById('tt').innerHTML=localStorage.getItem("tm") +"<br>";
+
+       </script>
+
+
+</body>
+</html>
